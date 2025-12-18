@@ -1,0 +1,5 @@
+{
+  "name": "Terminal Portfolio ",
+  "description": "An interactive terminal-based portfolio with a 3D ID card and AI chat capabilities using Gemini.",
+  "requestFramePermissions": []
+}
