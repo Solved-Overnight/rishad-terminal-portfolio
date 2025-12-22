@@ -116,44 +116,28 @@ export const SOCIALS = {
   whatsapp: "+8801710237055"
 };
 
-export const KALI_ASCII_ART = `                                                                                                                          
-                                      A                                        
-                                      pb                                        
-                                 x    ddp                                       
-                                  bb  ddddd                                     
-                                   bbdd bbddd                                   
-                                   bbbb  Zbddd]                                 
-                                   dbbb    kbddd                                
-                                   bddd     bbbbbL kdddddddh                    
-                                 ~bbdbdddddb dbdbdddbdddbddddddb                
-                               ddbbbddbbbbbdddbdddbbbbddbbb                     
-                            bdddbdbbbddbbbbbbbdddbddddddddbdbdd                 
-                            dbbddw  dbbbbbbbbddddddddbbddddbdddddp              
-                          |dddd   Ldbbbbbbdbdddddddbbdddddbdddddddd.            
-                        ddddbdddddbdddddk.    bdbbbddbddddbdddd ddbbb           
-                    pdddddddddp dddi     u      bbbbbddddddddddd   |bk          
-                ddddpb^                       >d. .bbddddddbbdddb               
-             bdd]                             dbbddibbddddddddddd~              
-               k                               bdbdddbbddddddddddd              
-                                               ddbbbdbbdddddzfdddd              
-                     ppdddppppdppddd           dbddddddddddd  bdd?              
-                          cd     .bd        h _dbddddddddddb  .dd               
-                                 p          d)dbbbddddbdddd    d                
-                                          ddbbbdddbddddddd     O                
-                                        dddddddbbdddddddd                       
-                                    dddbbddddddddbbbdddp                        
-                                 pdddddddddddddd ddddd                          
-                               dddddddp  Udddd   ddd                            
-                              dddddt     ddd    p                               
-                             dbddi      dp                                      
-                            dbdd      b                                         
-                            ddd                                                 
-                           wdd                                                  
-                           pdb                                                  
-                            d                                                   
-                            d                                                   
-                             b                                                  
-                              l                                                                                             
+export const KALI_ASCII_ART = `
+      ..............
+    ..,;:ccc,.
+  ......''';lxO.
+.....''''..........,:ld;
+           .';;;:::;,,.x,
+      ..'''.            0Xxoc:,.  ...
+  ....                ,ONkc;,;cokOdc',.
+ .                   OMo           ':ddo.
+                    dMc               :OO;
+                    0M.                 .:o.
+                    ;Wd
+                     ;XO,
+                       ,d0Odlc;,..
+                           ..',;:cdOOd::,.
+                                    .:d;.':;.
+                                       'd,  .'
+                                         ;l   ..
+                                          .o
+                                            c
+                                            .'
+                                             .
 `;
 
 // Mock File System Structure representing the "home" directory
