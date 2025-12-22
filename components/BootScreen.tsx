@@ -49,7 +49,7 @@ const BootScreen: React.FC<BootScreenProps> = ({ onComplete }) => {
          {/* Using SimpleIcons CDN for reliable loading. Color: #4af626 (Terminal Green) */}
          {/* Added -translate-x-4 to visually center the irregular dragon shape over the spinner */}
          <img 
-            src="https://raw.githubusercontent.com/Solved-Overnight/rishad-terminal-portfolio/baddba0c1fff145ce2139bb4a855b7a6636d2506/img/wolf_color_svg.svg"
+            src="https://raw.githubusercontent.com/Solved-Overnight/rishad-terminal-portfolio/refs/heads/main/img/wolf_color_png.png"
             alt="Wolf OS" 
             className="w-32 h-32 md:w-48 md:h-48 mb-12 drop-shadow-[0_0_25px_rgba(74,246,38,0.2)] animate-pulse -translate-x-2 md:-translate-x-4"
          />
