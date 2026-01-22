@@ -74,7 +74,7 @@ const PortfolioOS: React.FC = () => {
   const desktopPowerRef = useRef<HTMLDivElement>(null);
   const mobilePowerRef = useRef<HTMLDivElement>(null);
 
-  const RESUME_URL = "https://drive.google.com/uc?export=download&id=1CPjiqOI3YlBRBFlw85FkyLAITE0tC653";
+  const RESUME_URL = "https://drive.google.com/uc?export=download&id=1rx_ugzxI9t2re6oUF3Cqe9d3EsN58fy7";
 
   useEffect(() => {
       localStorage.setItem('terminal_sidebar_width', sidebarWidth.toString());
