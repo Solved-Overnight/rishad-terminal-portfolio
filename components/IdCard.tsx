@@ -214,7 +214,7 @@ const IdCard: React.FC = () => {
                   <div className="mt-auto pt-6 border-t border-zinc-800/50 flex justify-between items-end relative">
                       <div className="flex flex-col">
                           <span className="text-[10px] text-zinc-600 font-mono uppercase tracking-wider">Join Date</span>
-                          <span className="text-xs text-zinc-400 font-mono">Oct 2020</span>
+                          <span className="text-xs text-zinc-400 font-mono">Oct 2023</span>
                       </div>
 
                       {/* QR Code Icon (Click to Enlarge) */}
