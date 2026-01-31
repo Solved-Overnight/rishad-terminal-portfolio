@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import IdCard from './components/IdCard';
 import Terminal from './components/Terminal';
@@ -466,7 +465,7 @@ const PortfolioOS: React.FC = () => {
 
         <div className="absolute bottom-6 right-6 z-20 select-none hidden md:block pointer-events-none">
             <p className="text-terminal-green text-[10px] font-mono tracking-widest opacity-50">
-                [Interactive 3D Card]
+                [Portfolio Terminal]
             </p>
         </div>
 
