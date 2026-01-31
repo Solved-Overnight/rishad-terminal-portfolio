@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38bdf8?logo=tailwindcss)
-![Gemini AI](https://img.shields.io/badge/AI-Gemini%202.5-8E75B2?logo=google-bard)
 
 A highly interactive, developer-centric portfolio website that mimics a Linux terminal environment. It features a realistic file system, Zsh-style command prompts, a 3D interactive ID card, and a fully integrated AI persona powered by Google's Gemini API to answer visitor queries.
 
@@ -34,36 +33,6 @@ A highly interactive, developer-centric portfolio website that mimics a Linux te
 - **AI**: @google/genai SDK
 - **State Management**: React Context API & Hooks
 - **Font**: Fira Code (Monospace with ligatures)
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/terminal-portfolio.git
-   cd terminal-portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
 
 ## ⌨️ Usage
 
