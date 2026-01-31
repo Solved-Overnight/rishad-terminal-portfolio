@@ -57,26 +57,6 @@ Simply type any question that isn't a system command, and the AI will respond.
 ### Shortcuts
 - `about`, `projects`, `skills`, `experience`, `contact`
 
-## ⚙️ Configuration
-
-### Setting up the AI (Gemini)
-To enable the AI chat features, you need a valid Google Gemini API Key.
-
-1. Get a key from [Google AI Studio](https://aistudio.google.com/).
-2. In the portfolio terminal, type:
-   ```bash
-   sudo api
-   ```
-3. Enter your API key when prompted. It will be saved to your browser's LocalStorage.
-
-### Customizing Content
-Edit `src/constants.ts` to update:
-- `ABOUT_TEXT`: Your bio.
-- `PROJECTS`: List of your projects.
-- `EXPERIENCE`: Work history.
-- `SKILLS`: Technical skills.
-- `SOCIALS`: Social media links.
-
 ## 🎨 Themes
 
 You can switch themes using the UI settings icon (top right of the card section) or via the terminal command:
