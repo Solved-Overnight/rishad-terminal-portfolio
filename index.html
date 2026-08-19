@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags for SEO -->
+    <title>Moniruzzaman Rishad | AI & ML Engineer</title>
+    <meta name="title" content="Moniruzzaman Rishad | AI & ML Engineer">
+    <meta name="description" content="Official portfolio of Moniruzzaman Rishad, an AI & ML Engineer. Explore projects by Rishad in Machine Learning, React, and Gemini AI in an interactive terminal interface.">
+    <meta name="keywords" content="Moniruzzaman Rishad, Rishad, Moniruzzaman, AI & ML Engineer, AI Engineer, Machine Learning Engineer, Portfolio, Terminal Website, React Developer, Gemini AI, Software Engineer, Frontend Developer, Deep Learning">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Moniruzzaman Rishad">
+    <meta name="language" content="English">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rishadhabib.me/">
+    <meta property="og:title" content="Moniruzzaman Rishad | AI & ML Engineer">
+    <meta property="og:description" content="Interactive Terminal Portfolio of Moniruzzaman Rishad. Powered by Gemini AI.">
+    <meta property="og:image" content="https://rishadhabib.me/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Moniruzzaman Rishad | AI & ML Engineer">
+    <meta property="twitter:description" content="Interactive Terminal Portfolio of Moniruzzaman Rishad. Powered by Gemini AI.">
+    <meta property="twitter:image" content="https://rishadhabib.me/og-image.jpg">
+
+    <!-- JSON-LD Structured Data for Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Moniruzzaman Rishad",
+      "givenName": "Moniruzzaman",
+      "familyName": "Rishad",
+      "additionalName": "Rishad",
+      "url": "https://rishadhabib.me/",
+      "jobTitle": "AI & ML Engineer",
+      "sameAs": [
+        "https://github.com/Solved-Overnight",
+        "https://linkedin.com/in/mzrishad/",
+        "https://twitter.com/mzrishad"
+      ],
+      "knowsAbout": ["Artificial Intelligence", "Machine Learning", "React", "Software Engineering", "Gemini AI"]
+    }
+    </script>
+
+    <!-- Favicon (Terminal Prompt Icon >_) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234af626' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='4 17 10 11 4 5'%3E%3C/polyline%3E%3Cline x1='12' y1='19' x2='20' y2='19'%3E%3C/line%3E%3C/svg%3E">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              terminal: {
+                black: 'var(--terminal-bg)',
+                primary: 'var(--terminal-primary)',
+                green: 'var(--terminal-primary)',
+                dim: 'var(--terminal-dim)',
+                blue: 'var(--terminal-secondary)',
+                cyan: 'var(--terminal-accent)',
+                text: 'var(--terminal-text)',
+                'text-dim': 'var(--terminal-text-dim)'
+              }
+            },
+            fontFamily: {
+              mono: ['"Fira Code"', 'monospace', 'ui-monospace', 'SFMono-Regular']
+            },
+            keyframes: {
+              blink: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0' },
+              },
+              glitch: {
+                '0%': { transform: 'translate(0)' },
+                '20%': { transform: 'translate(-2px, 2px)' },
+                '40%': { transform: 'translate(-2px, -2px)' },
+                '60%': { transform: 'translate(2px, 2px)' },
+                '80%': { transform: 'translate(2px, -2px)' },
+                '100%': { transform: 'translate(0)' }
+              },
+              slideInRight: {
+                '0%': { transform: 'translateX(100%)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' }
+              },
+              slideOutRight: {
+                '0%': { transform: 'translateX(0)', opacity: '1' },
+                '100%': { transform: 'translateX(100%)', opacity: '0' }
+              },
+              slideInDown: {
+                '0%': { transform: 'translateY(-10px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' }
+              }
+            },
+            animation: {
+              blink: 'blink 1s step-end infinite',
+              glitch: 'glitch 0.2s cubic-bezier(.25, .46, .45, .94) both infinite',
+              slideIn: 'slideInRight 0.4s ease-out forwards',
+              slideOut: 'slideOutRight 0.4s ease-in forwards',
+              slideInDown: 'slideInDown 0.2s ease-out forwards',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        /* Default Theme Fallback (Matrix/Hacker) */
+        --terminal-bg: #0c0c0c;
+        --terminal-primary: #4af626;
+        --terminal-secondary: #4b84ff;
+        --terminal-accent: #29C5F6;
+        --terminal-dim: #2d333b;
+        --terminal-text: #f0f0f0;
+        --terminal-text-dim: #8b949e;
+      }
+
+      body {
+        margin: 0;
+        background-color: var(--terminal-bg);
+        color: var(--terminal-text);
+        overflow: hidden; /* Prevent body scroll, handle inside components */
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      /* Custom Scrollbar for Terminal */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--terminal-bg);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--terminal-dim);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--terminal-primary);
+      }
+
+      /* Utility to hide scrollbar but keep functionality */
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      
+      /* Color Picker Reset */
+      input[type="color"] {
+        -webkit-appearance: none;
+        border: none;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      input[type="color"]::-webkit-color-swatch-wrapper {
+        padding: 0;
+      }
+      input[type="color"]::-webkit-color-swatch {
+        border: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react-dom": "https://esm.sh/react-dom@^19.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
