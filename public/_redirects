@@ -1,0 +1,4 @@
+/api/chat    /.netlify/functions/chat   200
+/api/blogs   /.netlify/functions/blogs  200
+/api/blogs/* /.netlify/functions/blogs  200
+/*           /index.html                200
