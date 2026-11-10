@@ -1,0 +1,8 @@
+# robots.txt for https://mzrishad.is-a.dev/ and https://mzrishad.netlify.app/
+# Allow all search engines including Googlebot to crawl and index
+User-agent: *
+Allow: /
+
+# XML Sitemap locations for Google Search Console indexing
+Sitemap: https://mzrishad.is-a.dev/sitemap.xml
+Sitemap: https://mzrishad.netlify.app/sitemap.xml

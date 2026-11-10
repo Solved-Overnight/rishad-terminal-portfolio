@@ -1,0 +1,333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Suppress Vite HMR WebSocket connection errors in preview/iframe environment
+      window.addEventListener('error', function(e) {
+        if (e.message && (e.message.includes('WebSocket') || e.message.includes('createWebSocketModuleRunnerTransport') || (e.filename && e.filename.includes('@vite/client')))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var reason = (e && e.reason && (e.reason.message || String(e.reason))) || '';
+        var stack = (e && e.reason && e.reason.stack) || '';
+        if (reason.includes('WebSocket') || reason.includes('createWebSocketModuleRunnerTransport') || stack.includes('@vite/client')) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    </script>
+    
+    <!-- Primary Meta Tags for SEO -->
+    <title>M. Rishad | AI & ML Engineer</title>
+    <meta name="title" content="M. Rishad | AI & ML Engineer">
+    <meta name="description" content="Official interactive terminal portfolio of Moniruzzaman Rishad, an AI & ML Engineer. Explore machine learning systems, computer vision models, LLM agents, and projects.">
+    <meta name="keywords" content="M. Rishad, Moniruzzaman Rishad, Rishad, AI & ML Engineer, AI Engineer, Machine Learning Engineer, Portfolio, Terminal Website, React Developer, Gemini AI, Deep Learning, Computer Vision">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="author" content="M. Rishad">
+    <meta name="language" content="English">
+
+    <!-- Canonical URL for Google Search Indexing -->
+    <link rel="canonical" href="https://mzrishad.is-a.dev/">
+
+    <!-- Google Search Console Verification Tag -->
+    <meta name="google-site-verification" content="TqTgXOGOLluGs3B-KCsPF98yYpkwOrMzn58vQ6aHTt4" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp / Discord / Slack -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mzrishad.is-a.dev/">
+    <meta property="og:title" content="M. Rishad | AI & ML Engineer">
+    <meta property="og:description" content="Official interactive terminal portfolio of Moniruzzaman Rishad, an AI & ML Engineer. Explore machine learning systems, computer vision models, LLM agents, and projects.">
+    <meta property="og:image" content="https://mzrishad.is-a.dev/img/url-preview-img.png">
+    <meta property="og:image:secure_url" content="https://mzrishad.is-a.dev/img/url-preview-img.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="M. Rishad | AI & ML Engineer Portfolio Preview">
+    <meta property="og:site_name" content="M. Rishad | AI & ML Engineer">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mzrishad.is-a.dev/">
+    <meta name="twitter:title" content="M. Rishad | AI & ML Engineer">
+    <meta name="twitter:description" content="Official interactive terminal portfolio of Moniruzzaman Rishad, an AI & ML Engineer. Explore machine learning systems, computer vision models, LLM agents, and projects.">
+    <meta name="twitter:image" content="https://mzrishad.is-a.dev/img/url-preview-img.png">
+    <meta name="twitter:image:alt" content="M. Rishad | AI & ML Engineer Portfolio Preview">
+    <meta name="twitter:site" content="@mzrishad">
+    <meta name="twitter:creator" content="@mzrishad">
+
+    <!-- Image source link for link scrapers -->
+    <link rel="image_src" href="https://mzrishad.is-a.dev/img/url-preview-img.png">
+
+    <!-- JSON-LD Structured Data: Person & WebSite for Google Search Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://mzrishad.is-a.dev/#person",
+          "name": "M. Rishad",
+          "givenName": "Moniruzzaman",
+          "familyName": "Rishad",
+          "additionalName": "Rishad",
+          "url": "https://mzrishad.is-a.dev/",
+          "image": "https://mzrishad.is-a.dev/img/url-preview-img.png",
+          "jobTitle": "AI & ML Engineer",
+          "sameAs": [
+            "https://mzrishad.netlify.app/",
+            "https://github.com/Solved-Overnight",
+            "https://linkedin.com/in/mzrishad/",
+            "https://twitter.com/mzrishad"
+          ],
+          "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Computer Vision", "LLMs", "React", "Python"]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://mzrishad.is-a.dev/#website",
+          "url": "https://mzrishad.is-a.dev/",
+          "name": "M. Rishad | AI & ML Engineer",
+          "alternateName": ["Rishad Portfolio", "mzrishad", "Moniruzzaman Rishad Portfolio"],
+          "description": "Official interactive terminal portfolio of M. Rishad, an AI & Machine Learning Engineer.",
+          "image": "https://mzrishad.is-a.dev/img/url-preview-img.png",
+          "publisher": {
+            "@id": "https://mzrishad.is-a.dev/#person"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Google Analytics 4 (GA4) Global Site Tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SV0LZVY0P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      var gaMeasurementId = 'G-0SV0LZVY0P';
+      if (typeof window !== 'undefined' && window.__GA_MEASUREMENT_ID__) {
+        gaMeasurementId = window.__GA_MEASUREMENT_ID__;
+      }
+      gtag('config', gaMeasurementId, {
+        send_page_view: true,
+        page_title: document.title,
+        page_location: window.location.href
+      });
+    </script>
+
+    <!-- Favicon (Terminal Prompt Icon >_) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234af626' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='4 17 10 11 4 5'%3E%3C/polyline%3E%3Cline x1='12' y1='19' x2='20' y2='19'%3E%3C/line%3E%3C/svg%3E">
+
+    <!-- Google Fonts: Inter & Fira Code for Crisp Vector Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              terminal: {
+                black: 'var(--terminal-bg)',
+                primary: 'var(--terminal-primary)',
+                green: 'var(--terminal-primary)',
+                dim: 'var(--terminal-dim)',
+                blue: 'var(--terminal-secondary)',
+                cyan: 'var(--terminal-accent)',
+                text: 'var(--terminal-text)',
+                'text-dim': 'var(--terminal-text-dim)',
+                surface: 'var(--terminal-surface)',
+                'surface-border': 'var(--terminal-surface-border)'
+              }
+            },
+            fontFamily: {
+              mono: ['"Fira Code"', 'monospace', 'ui-monospace', 'SFMono-Regular']
+            },
+            keyframes: {
+              blink: {
+                '0%, 100%': { opacity: '1' },
+                '50%': { opacity: '0' },
+              },
+              glitch: {
+                '0%': { transform: 'translate(0)' },
+                '20%': { transform: 'translate(-2px, 2px)' },
+                '40%': { transform: 'translate(-2px, -2px)' },
+                '60%': { transform: 'translate(2px, 2px)' },
+                '80%': { transform: 'translate(2px, -2px)' },
+                '100%': { transform: 'translate(0)' }
+              },
+              slideInRight: {
+                '0%': { transform: 'translateX(100%)', opacity: '0' },
+                '100%': { transform: 'translateX(0)', opacity: '1' }
+              },
+              slideOutRight: {
+                '0%': { transform: 'translateX(0)', opacity: '1' },
+                '100%': { transform: 'translateX(100%)', opacity: '0' }
+              },
+              slideInDown: {
+                '0%': { transform: 'translateY(-10px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' }
+              }
+            },
+            animation: {
+              blink: 'blink 1s step-end infinite',
+              glitch: 'glitch 0.2s cubic-bezier(.25, .46, .45, .94) both infinite',
+              slideIn: 'slideInRight 0.4s ease-out forwards',
+              slideOut: 'slideOutRight 0.4s ease-in forwards',
+              slideInDown: 'slideInDown 0.2s ease-out forwards',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        /* Default Theme Fallback (Matrix/Hacker) */
+        --terminal-bg: #0c0c0c;
+        --terminal-primary: #4af626;
+        --terminal-secondary: #4b84ff;
+        --terminal-accent: #29C5F6;
+        --terminal-dim: #2d333b;
+        --terminal-text: #f0f0f0;
+        --terminal-text-dim: #8b949e;
+      }
+
+      @keyframes dunstProgress {
+        0% { width: 100%; }
+        100% { width: 0%; }
+      }
+
+      @keyframes win11CameraPan {
+        0% {
+          opacity: 0;
+          transform: perspective(950px) rotateY(-52deg) rotateX(22deg) scale(1.42) translate3d(-18px, 8px, 50px);
+          filter: brightness(1.45) blur(3px);
+        }
+        28% {
+          opacity: 1;
+          filter: brightness(1.25) blur(0.4px);
+        }
+        75% {
+          opacity: 1;
+          transform: perspective(950px) rotateY(4deg) rotateX(-2deg) scale(1.02) translate3d(0, 0, 0);
+          filter: brightness(1.08) blur(0px);
+        }
+        100% {
+          opacity: 1;
+          transform: perspective(950px) rotateY(0deg) rotateX(0deg) scale(1) translate3d(0, 0, 0);
+          filter: brightness(1) blur(0px);
+        }
+      }
+
+      @keyframes win11PaneTL {
+        0% { opacity: 0; transform: translate3d(-26px, -22px, 40px) scale(0.82); }
+        100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+      }
+      @keyframes win11PaneTR {
+        0% { opacity: 0; transform: translate3d(26px, -22px, 70px) scale(0.82); }
+        100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+      }
+      @keyframes win11PaneBL {
+        0% { opacity: 0; transform: translate3d(-26px, 22px, 20px) scale(0.82); }
+        100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+      }
+      @keyframes win11PaneBR {
+        0% { opacity: 0; transform: translate3d(26px, 22px, 50px) scale(0.82); }
+        100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); }
+      }
+
+      @keyframes win11AuraBloom {
+        0% { opacity: 0; transform: scale(0.45); }
+        45% { opacity: 0.85; transform: scale(1.12); }
+        100% { opacity: 0.55; transform: scale(1); }
+      }
+
+      @keyframes win11LightSweep {
+        0% { opacity: 0; transform: translateX(-160%) skewX(-25deg); }
+        20% { opacity: 0.9; }
+        80% { opacity: 0.7; }
+        100% { opacity: 0; transform: translateX(220%) skewX(-25deg); }
+      }
+
+      @keyframes win11RaySweep {
+        0% { opacity: 0; transform: rotate(-28deg) translateX(-45%) scaleY(0.85); }
+        40% { opacity: 0.55; }
+        100% { opacity: 0.18; transform: rotate(-18deg) translateX(18%) scaleY(1.05); }
+      }
+
+      @keyframes win11HudFadeIn {
+        0% { opacity: 0; transform: translateY(10px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      html, body, #root {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden !important;
+        overscroll-behavior: none;
+        background-color: var(--terminal-bg);
+        color: var(--terminal-text);
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      /* Custom Scrollbar for Terminal */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--terminal-bg);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--terminal-dim);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--terminal-primary);
+      }
+
+      /* Utility to hide scrollbar but keep functionality */
+      .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+      }
+      .scrollbar-hide {
+          -ms-overflow-style: none;  /* IE and Edge */
+          scrollbar-width: none;  /* Firefox */
+      }
+      
+      /* Color Picker Reset */
+      input[type="color"] {
+        -webkit-appearance: none;
+        border: none;
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      input[type="color"]::-webkit-color-swatch-wrapper {
+        padding: 0;
+      }
+      input[type="color"]::-webkit-color-swatch {
+        border: none;
+      }
+    </style>
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[functions]
+  directory = "netlify/functions"
+  included_files = ["blogs/**"]
+
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
+
+[[redirects]]
+  from = "/api/blogs"
+  to = "/.netlify/functions/blogs"
+  status = 200
+
+[[redirects]]
+  from = "/api/blogs/*"
+  to = "/.netlify/functions/blogs"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
